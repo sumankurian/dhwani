@@ -774,7 +774,9 @@ td, th {
 }
 
 b, i, sup, sub, u, del {
-    color: #F5D601;
+    color: #590010;
+    -webkit-text-stroke-width: .7px;
+    -webkit-text-stroke-color: #FFFFFF;
 }
 
 h1 {
