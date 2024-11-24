@@ -778,6 +778,7 @@ b, i, sup, sub, u, del {
     -webkit-text-stroke-width: .7px;
     -webkit-text-stroke-color: #FFFFFF;
     ;
+	 opacity: .65;
 }
 
 h1 {
