@@ -94,14 +94,18 @@ padding: initial;
 
 .facebook{
 	background: #0572e6;
+	opacity: .3;
+	
 }
 
 .instagram{
 	background: linear-gradient(to bottom, #7f0ae8, #fd0070, #feb200 );
+	opacity: .3;
 }
 
 .youtube{
 	background: #ff0101;
+	opacity: .3;
 }
 ol, ul {
   margin: 0;
