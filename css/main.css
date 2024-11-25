@@ -778,7 +778,7 @@ b, i, sup, sub, u, del {
     -webkit-text-stroke-width: .7px;
     -webkit-text-stroke-color: #FFFFFF;
     ;
-	 opacity: .65;
+    opacity: .65;
 }
 
 h1 {
@@ -2510,6 +2510,18 @@ nav a:hover {
   text-align: right;
 }
 
+.Row {
+    display: table;
+    width: 100%; /*Optional*/
+    table-layout: fixed; /*Optional*/
+  /*  border-spacing: 10px; Optional*/
+}
+.Column {
+    display: table-cell;
+   
+    /*Optional*/
+}
+
 .footer-social a {
   background: #f9f9ff;
   padding: 12px 18px;
@@ -2534,5 +2546,5 @@ nav a:hover {
 }
 
 .logo {
-	filter:drop-shadow(0 0 10px rgba(255, 255, 255,1))
+    filter: drop-shadow(0 0 10px rgba(255, 255, 255,1));
 }
